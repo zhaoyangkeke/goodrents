@@ -1,0 +1,89 @@
+.detail-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-wrapper-wrap {
+  width: 100%;
+  height: 6.3rem;
+  position: relative;
+}
+
+.detail-wrapper-wrap .detail-swiper-top {
+  width: 100%;
+  height: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: .28rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  z-index: 2222;
+}
+
+.detail-wrapper-wrap .detail-swiper-top .detail-swiper-top-right {
+  display: flex;
+  align-items: center;
+}
+
+.detail-wrapper-wrap .detail-swiper-top .detail-swiper-top-right span {
+  padding-right: .2rem;
+  font-size: .6rem;
+}
+
+.detail-wrapper-wrap .swiper-container {
+  width: 100%;
+  height: 6.3rem;
+}
+
+.detail-wrapper-wrap .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 6.3rem;
+}
+
+.detail-wrapper-wrap .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-wrapper-wrap .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 6.3rem;
+}
+
+.detailContent-wrap {
+  width: 100%;
+  height: auto;
+}
+
+.detailContent-wrap > h3 {
+  font-size: .6rem;
+  padding: .2rem;
+  box-sizing: border-box;
+}
+
+.detailContent-wrap .detailContent-wrap-ul {
+  width: 100%;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.detailContent-wrap .detailContent-wrap-ul li {
+  width: 33%;
+  text-align: center;
+  color: #9B9B9B;
+}
+
+.detailContent-wrap .detailContent-wrap-ul li span {
+  display: block;
+}
+
+.detailContent-wrap .detailContent-wrap-ul li span b {
+  font-size: .55rem;
+  color: #E7A149;
+}

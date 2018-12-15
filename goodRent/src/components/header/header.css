@@ -1,0 +1,38 @@
+.list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 1.1rem;
+  background: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .35rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left .logo {
+  width: 1.8rem;
+  height: 1.1rem;
+}
+
+.left .logo img {
+  width: 1.8rem;
+  height: .8rem;
+  margin-top: .1rem;
+}
+
+.right i.iconfont {
+  margin: 0 .2rem;
+}

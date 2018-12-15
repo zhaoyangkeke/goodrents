@@ -1,0 +1,93 @@
+$m10:0.1rem;
+$fs:.32rem;
+$default_color:#676767;
+$fs_middle:.5rem;
+$mb26:.26rem;
+$white:#fff;
+$pagecolor:#F5F6FB;
+$pl38:.28rem;
+.loginWrap{
+    width:100%;
+    height: 100%;
+}
+.loginBanner{
+    width:100%;
+    height: 7rem;
+    position: relative;
+    .loginban{
+        width:100%;
+        height: 100%;
+    }
+    .loginLogo{
+        widows: 1.4em;
+        height: .6rem;
+        position: absolute;
+        top:.22rem;
+        left: 0.17rem;
+    }
+}
+.loginContent{
+    width:100%;
+    padding: $pl38;
+    box-sizing: border-box;
+    .loginTit{
+        width:100%;
+        text-align: center;
+        line-height: 1.3rem;
+        font-size:.6rem;
+        color:#42413E;
+    }
+    .loginMessage{
+        width:100%;
+        >p{
+            line-height: 1rem;
+            color:#ff6773;
+            span{
+                display: inline-block;
+                width: .4rem;
+                height: .4rem;
+                background: #ff6773;
+                border-radius: 100%;
+                text-align: center;
+                line-height: .4rem;
+                color:#fff;
+                margin-right: .1rem;
+            }
+        }
+        >li{
+            width: 100%;
+            input{
+                width:100%;
+                line-height: 1.3rem;
+                border:none;
+                border-bottom: solid 1px #EBEBEB !important;
+                outline: none;
+            }
+            &.li-msg{
+                position: relative;
+                .sendVertifyMsg{
+                    position: absolute;
+                    right:0;
+                    top:0.2rem;
+                    background: #FFAD32;
+                    color:#fff;
+                    padding: .1rem .2rem;
+                    border-radius: .2rem;
+                }
+            }
+        }
+        
+    }
+    .loginBtn{
+        width:100%;
+        height: 1.2rem;
+        background: #FF9900;
+        text-align: center;
+        line-height: 1.2rem;
+        color:#fff;
+        margin-top: .7rem;
+        border-radius: .2rem;
+        font-size: .55rem;
+    }
+}
+

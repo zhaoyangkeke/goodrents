@@ -1,0 +1,94 @@
+// @import url('../../common/verable.scss');
+$fs:.32rem;
+.share-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .header{
+        width: 100%;
+        height: 1.1rem;
+        background: #333333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 .35rem;
+        box-sizing: border-box;
+        color:#fff;
+    }
+    .left{
+        div{
+            display: inline-block;
+            line-height: 1.1rem;
+            margin-right: .2rem;
+        }
+    }
+    .right{
+        i.iconfont{
+            margin: 0 .2rem;
+        }
+    }
+    .checkTab{
+        display: flex;
+        height: 1.2rem;
+        align-items: center;
+        background: #F0F0F0;
+        div{
+            flex:1;
+            text-align: center;
+            font-size: $fs;
+        }
+    }
+    .cont-list{
+        flex:1;
+        overflow-y: scroll;
+        dl{
+            width: 100%;
+            display: flex;
+            padding-top: .5rem;
+            box-sizing: border-box;
+            position: relative;
+            dt{
+                width: 3.75rem;
+                height: auto;
+                flex-shrink: 0;
+                padding:0 .35rem;
+                box-sizing: border-box;
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                padding-right: .15rem;
+                box-sizing: border-box;
+                flex: 1;
+                .list-item-price{
+                    position: absolute;
+                    right:.2rem;
+                    top:1.3rem;
+                }
+                div:not(.list-item-tit){
+                    font-size: $fs;
+                    line-height: 1.5;
+                    color:#9A9A9A;
+                }
+            }
+        }
+    }
+    .list-item-tit{
+        font-weight: bold;
+        line-height: 1.5;
+
+    }
+    .list-item-tags{
+        span{
+            padding: 0 .2rem;
+            &:nth-child(1){
+                background: #f7f0ee;
+                color:#cca99e;
+            }
+        }
+    }
+}
+
+

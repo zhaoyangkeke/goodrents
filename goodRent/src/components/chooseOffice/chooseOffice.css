@@ -1,0 +1,52 @@
+.chooseOffice_Wrap {
+  width: 100%;
+  height: auto;
+  padding: 0.28rem;
+  box-sizing: border-box;
+}
+
+.chooseOffice_Wrap .chooseOffice_tit {
+  width: 100%;
+  line-height: .92rem;
+}
+
+.chooseOffice_Wrap .toggleOffice {
+  width: 100%;
+  height: auto;
+}
+
+.chooseOffice_Wrap .toggleOffice .toggleOfficeNav {
+  width: 100%;
+  line-height: .84rem;
+  border-bottom: solid 1px #eee;
+  font-size: .38rem;
+  color: #9F9F9F;
+}
+
+.chooseOffice_Wrap .toggleOffice .toggleOfficeNav span {
+  padding-right: .1rem;
+}
+
+.chooseOffice_Wrap .toggleOffice .toggleOfficeNav span.active {
+  display: inline-block;
+  height: .84rem;
+  border-bottom: solid 1px #ccc;
+}
+
+.chooseOffice_Wrap .toggleOffice .toggleOfficeCon {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chooseOffice_Wrap .toggleOffice .toggleOfficeCon li {
+  width: 20%;
+  padding: 0 .03rem;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: .78rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #9F9F9F;
+}

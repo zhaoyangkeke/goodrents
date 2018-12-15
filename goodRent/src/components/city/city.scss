@@ -1,0 +1,16 @@
+.cityInnerWrap{
+    width:9rem;
+    height: 4rem;
+    padding: .3rem;
+    box-sizing: border-box;
+}
+.cityInnerCon{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        width:20%;
+        text-align: center;
+        line-height: 1rem;
+    }
+}

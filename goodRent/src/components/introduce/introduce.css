@@ -1,0 +1,58 @@
+.introduce_wrap {
+  width: 100%;
+  height: 8.65rem;
+  background: url("https://wap-cdn.haozu.com/static/image/new/foot_bg_09.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 8.55rem;
+}
+
+.introduce_wrap .introduce_wrap_top {
+  width: 100%;
+  height: 3.47rem;
+  border-bottom: solid 1px #7A7A7A;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.introduce_wrap .introduce_wrap_top li {
+  width: 50%;
+  text-align: center;
+}
+
+.introduce_wrap .introduce_wrap_top li span {
+  font-size: .38rem;
+  color: #9B9B9B;
+  padding-left: .1rem;
+}
+
+.introduce_wrap .introduce_wrap_top li b {
+  font-size: .7rem;
+  color: #9B9B9B;
+  font-weight: normal;
+}
+
+.introduce_wrap .company_intro {
+  width: 100%;
+  margin-top: .2rem;
+}
+
+.introduce_wrap .company_intro .free {
+  font-size: .62rem;
+  color: #9F9F9F;
+}
+
+.introduce_wrap .company_intro .about {
+  color: #9F9F9F;
+}
+
+.introduce_wrap .company_intro li {
+  text-align: center;
+  font-size: .36rem;
+  color: #696969;
+}
+
+.introduce_wrap .company_intro li img {
+  width: 1.9rem;
+  height: .92rem;
+}

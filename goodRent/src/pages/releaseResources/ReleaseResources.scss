@@ -1,0 +1,135 @@
+$m10:0.1rem;
+$fs:.32rem;
+$default_color:#676767;
+$fs_middle:.5rem;
+$mb26:.26rem;
+$white:#fff;
+$pagecolor:#F5F6FB;
+$pl38:.28rem;
+.ReleaseResourcesWrap{
+    width:100%;
+    height: 100%;
+    .ReleaseResourcesWrapHead{
+        width:100%;
+        height: 1.7rem;
+        background:rgba(0,0,0,.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .releaseImg{
+            width:3rem;
+            height: 1rem;
+        }
+        .icon-arrow-left{
+            color:#fff;
+            position: absolute;
+            top:.4rem;
+            left:0.1rem;
+        }
+    }
+    .ReleaseResourcesCon{
+        width:100%;
+        height: auto;
+        padding: $pl38;
+        box-sizing: border-box;   
+        .changeReleaseValue{
+            border:none;
+            width:2.3rem;
+            outline: none;
+        }     
+        .ReleaseFont{
+            width:100%;
+            text-align: center;
+            margin-bottom: .4rem;
+            h4{
+                font-size: .9rem;
+            }
+            h5{
+                font-size: .6rem;
+            }
+        }
+        .ReleaseMsg{
+            width:100%;
+            >div{
+                width:100%;
+                margin: .5rem 0;
+                &.releaseBtn{
+                    width:100%;
+                    height: 1.4rem;
+                    background: #D7D7D7;
+                    color:#999999;
+                    text-align: center;
+                    line-height: 1.4rem;
+                    border-radius: .1rem;
+                    font-size: .5rem;
+                }
+                &.releaseChoose{
+                    width:100%;
+                    display: flex;
+                    justify-content: space-around;
+                    div{
+                        width:30%;
+                        height: 1.1rem;
+                        border:solid 1px #ccc;
+                        line-height: 1.1rem;
+                        padding-left: .1rem;
+                        position: relative;
+                        box-sizing: border-box;
+                        flex-shrink: 0;
+                        &.chooseCitys{
+                            .chooseCityItem{
+                                width:100%;
+                                position: absolute;
+                                top:0;
+                                left:0;
+                                z-index: 33;
+                                transform: translateY(-100%);
+                                border:solid 1px #f90;
+                                background: #fff;
+                                max-height: 7.9rem;
+                                overflow-y: scroll;
+                                color:#ccc;
+                                display: none;
+                                &.show1{
+                                    display: block;
+                                }
+                                &.show2{
+                                    display: block;
+                                }
+                                &.show3{
+                                    display: block;
+                                }
+                                li{
+                                    line-height: .7rem;
+                                    padding: .08rem;
+                                    box-sizing: border-box;
+                                    &.active{
+                                        color:#fff;
+                                        background: skyblue;
+                                    }
+                                }
+                            }                            
+                        }
+                        .downs{
+                            width:.3rem;
+                            position: absolute;
+                            right:.3rem;
+                            top:.5rem;
+                        }
+                    }
+                }
+                >input{
+                    width:100%;
+                    height: 1.1rem;
+                    padding-left: .2rem;
+                    box-sizing: border-box;
+                    border-radius: .2rem;
+                    outline: none;
+                    border: solid 1px #ccc;
+                }
+            }
+            
+        }
+    }
+}

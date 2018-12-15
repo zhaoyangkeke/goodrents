@@ -1,0 +1,57 @@
+$m10:0.1rem;
+$fs:.32rem;
+$default_color:#676767;
+$fs_middle:.5rem;
+$mb26:.26rem;
+$white:#fff;
+$pagecolor:#F5F6FB;
+$pl38:.28rem;
+.introduce_wrap{
+    width: 100%;
+    height: 8.65rem;
+    background:url('https://wap-cdn.haozu.com/static/image/new/foot_bg_09.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 8.55rem;
+    .introduce_wrap_top{
+        width: 100%;
+        height: 3.47rem;
+        border-bottom: solid 1px #7A7A7A;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        li{
+            width:50%;
+            text-align: center;
+            span{
+                font-size: .38rem;
+                color:#9B9B9B;
+                padding-left: .1rem;
+            }
+            b{
+                font-size: .7rem;
+                color:#9B9B9B;
+                font-weight: normal;
+            }
+        }
+    }
+    .company_intro{
+        width: 100%;
+        margin-top: .2rem;
+        .free{
+            font-size: .62rem;
+            color:#9F9F9F;
+        }
+        .about{
+            color:#9F9F9F;  
+        }
+        li{
+            text-align: center;
+            font-size: .36rem;
+            color:#696969;
+            img{
+                width:1.9rem;
+                height: .92rem;
+            }
+        }
+    }
+}
